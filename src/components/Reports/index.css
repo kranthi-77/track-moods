@@ -1,0 +1,97 @@
+.reports-body-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/monthly-emojis-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  min-height: 100vh;
+  background-position: center;
+}
+
+.emoji-report-heading {
+  width: 159px;
+  height: 48px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  padding-left: 10px;
+  margin-bottom: 0px;
+}
+
+.emoji-report-ul {
+  width: 328px;
+  height: 448px;
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding-left: 0px;
+  align-self: center;
+}
+.emoji-report-li {
+  background-color: #42404d;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  width: 150px;
+  height: 150px;
+  align-items: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.emoji-li-img {
+  width: 30px;
+}
+.emoji-li-para {
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: bold;
+}
+.emoji-count {
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-report-ul {
+    width: 100%;
+    max-width: 1, 316px;
+    height: 254px;
+    align-items: center;
+  }
+  .emoji-report-li {
+    flex: 1 0 calc((100% - 60px) / 5);
+    height: 80%;
+    justify-content: center;
+  }
+  .recharts-surface {
+    width: 100%;
+  }
+}
+
+.monthly-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+.monthly-reports-heading {
+  width: 159px;
+  height: 48px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+  padding-left: 10px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}

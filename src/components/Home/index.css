@@ -1,0 +1,207 @@
+.home-body-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/nxt-slides/monthly-emojis-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  min-height: 100vh;
+  align-items: center;
+  background-position: center;
+}
+.home-all-container {
+  display: flex;
+  flex-direction: column;
+}
+.home-main-heading {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .home-main-heading {
+    display: block;
+    width: 313px;
+    height: 48px;
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffbe38;
+  }
+  .home-all-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+  .helloMoto {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+  }
+}
+
+.emojis-list-container {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 328px;
+  height: 116px;
+  top: 81px;
+  left: 16px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 18.42px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: linear-gradient(
+    145.12deg,
+    rgba(114, 104, 117, 0.21) 1.78%,
+    rgba(117, 116, 117, 0) 125.71%
+  );
+  border: 1.38px solid;
+  border-image-source: linear-gradient(
+    139.28deg,
+    rgba(90, 86, 86, 0.28) 2.05%,
+    rgba(0, 0, 0, 0) 92.82%
+  );
+}
+.emoji-ul {
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-left: 0px;
+  margin: 0px;
+}
+.emoji-li {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.emoji-para {
+  font-size: 10px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #ffffff;
+}
+.emoji-img {
+  width: 20px;
+}
+
+.emoji-button {
+  background-color: transparent;
+  border: 0px solid;
+  outline: none;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.activeEmojiButton {
+  flex-grow: 1;
+}
+
+.activeEmoji {
+  width: 25px;
+}
+
+.activeEmojiPara {
+  font-size: 13px;
+}
+
+.calender-container1 {
+  width: 330px;
+  height: 407px;
+  border-radius: 18.42px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 768px) {
+  .calender-container {
+    display: none;
+  }
+  .calender-container1 {
+    width: 100%;
+    max-width: 797px;
+    height: 509px;
+    border-radius: 18.42px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    background: linear-gradient(
+      142.42deg,
+      rgba(114, 104, 117, 0.21) 1.79%,
+      rgba(117, 116, 117, 0) 100.42%
+    );
+    margin: 20px;
+    padding: 25px;
+  }
+  .emojis-list-container {
+    width: 100%;
+    max-width: 486px;
+    height: 242px;
+  }
+}
+
+.select-container {
+  width: 328px;
+  height: 220px;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  background: linear-gradient(
+    145.12deg,
+    rgba(114, 104, 117, 0.21) 1.78%,
+    rgba(117, 116, 117, 0) 125.71%
+  );
+  border-radius: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.emoji-select {
+  height: 40px;
+  background: #42404d;
+  border: 1px solid #7b7c7d;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.day-select {
+  height: 40px;
+  background: #42404d;
+  border: 1px solid #7b7c7d;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.name-day-count {
+  text-align: center;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .select-container {
+    width: 100%;
+    max-width: 486px;
+    height: 242px;
+  }
+}
