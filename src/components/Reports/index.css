@@ -73,6 +73,9 @@
   .recharts-surface {
     width: 100%;
   }
+  .bar-chart{
+    width: 800;
+  }
 }
 
 .monthly-container {

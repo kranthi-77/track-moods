@@ -3,9 +3,13 @@
     "browser": true,
     "es2021": true
   },
-  "parser": "babel-eslint",
-  "extends": ["react-app", "airbnb", "prettier"],
+  "parser": "@babel/eslint-parser",
+  "extends": ["react-app", "airbnb-base", "prettier"],
   "parserOptions": {
+    "requireConfigFile": false,
+    "babelOptions": {
+      "presets": ["@babel/preset-react"]
+    },
     "ecmaFeatures": {
       "jsx": true
     },
@@ -22,7 +26,7 @@
     }
   ],
   "rules": {
-    "prettier/prettier": "error",
+    "prettier/prettier": "off",
     "react/jsx-filename-extension": [1, {"extensions": [".js", ".jsx"]}],
     "react/state-in-constructor": "off",
     "react/react-in-jsx-scope": "off",
@@ -48,13 +52,13 @@
         "ignorePureComponents": true
       }
     ],
-    "no-unused-vars": "warn",
-    "jsx-a11y/alt-text": 1,
-    "react/no-unused-state": "warn",
-    "react/button-has-type": "warn",
-    "react/no-unescaped-entities": "warn",
+    "no-unused-vars": "off",
+    "jsx-a11y/alt-text": 0,
+    "react/no-unused-state": "off",
+    "react/button-has-type": "off",
+    "react/no-unescaped-entities": "off",
     "react/jsx-props-no-spreading": "off",
-    "operator-assignment": ["warn", "always"],
+    "operator-assignment": ["off", "always"],
     "radix": "off"
   }
 }

@@ -73,15 +73,18 @@
   margin-bottom: 5px;
   display: flex;
   align-items: center;
+  cursor: pointer;
 }
 .checkbox-inputs {
   width: 16px;
   height: 16px;
+  cursor: pointer;
 }
 .checkbox-label {
   font-size: 14px;
   color: #ffffff;
   margin-left: 5px;
+  cursor: pointer;
 }
 
 .login-button {
@@ -92,6 +95,7 @@
   font-size: 15px;
   font-weight: bold;
   border-radius: 10px;
+  cursor: pointer;
 }
 .error-msg {
   color: rgb(186, 35, 35);
