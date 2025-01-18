@@ -44,6 +44,7 @@
     "test": "react-scripts test",
     "lint": "eslint .",
     "lint:fix": "eslint --fix src/",
+    "vercel-build": "pnpm install --no-frozen-lockfile && <your-build-command>",
     "format": "prettier --write \"./src\"",
     "run-all": "npm-run-all --parallel test lint:fix"
   },
